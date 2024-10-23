@@ -1,0 +1,17 @@
+# Ignorar qualquer pasta venv e __pycache__ e seu conteúdo
+venv/
+__pycache__/
+
+# Ignorar qualquer subdiretório venv ou __pycache__ em qualquer parte do projeto
+**/venv/
+**/__pycache__/
+
+# Outros padrões úteis para Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignorar ambientes virtuais específicos e comuns
+env/
+.venv/
